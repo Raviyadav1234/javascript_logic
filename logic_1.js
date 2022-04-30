@@ -1,3 +1,4 @@
+
 $(document).ready(function(){
  var currentIndex = 0;
  $(document).on("click",".edit-btn-data",function() {
@@ -41,7 +42,7 @@ $(document).ready(function(){
 			if(currentIndex >= 0){
 				var index = $("#item-cube-"+currentIndex).attr('data-index');
 				//alert(index)
-   var new_index=parseInt(index) + 1;
+               var new_index=parseInt(index) + 1;
 				$("#number_count").text(new_index);
  
 				var text = $("#item-cube-"+currentIndex).attr('data-val');
@@ -51,14 +52,14 @@ $(document).ready(function(){
 				var data_cat = $("#item-cube-"+currentIndex).attr('data-cat');
 				var row_id = $("#item-cube-"+currentIndex).attr('id-row')
 
-		$("#name").val(data_line);
-        $("#text").val(text);
-        $("#festtext").html(text.substring(0,180));
-        $("#festtext2").html(text);
-        $("#meta_data_value").val(data_meta);
-        $("#category").val(data_cat);
-        $("#author").val(author);
-        $("#row_id").val(row_id);
+				$("#name").val(data_line);
+		        $("#text").val(text);
+		        $("#festtext").html(text.substring(0,180));
+		        $("#festtext2").html(text);
+		        $("#meta_data_value").val(data_meta);
+		        $("#category").val(data_cat);
+		        $("#author").val(author);
+		        $("#row_id").val(row_id);
 		
 			}else{
 				currentIndex = 0;
@@ -86,14 +87,14 @@ $('.next').on("click", function(){
 				var data_cat = $("#item-cube-"+currentIndex).attr('data-cat');
 				var row_id = $("#item-cube-"+currentIndex).attr('id-row')
 
-		$("#name").val(data_line);
-        $("#text").val(text);
-        $("#festtext").html(text.substring(0,180));
-        $("#festtext2").html(text);
-        $("#meta_data_value").val(data_meta);
-        $("#category").val(data_cat);
-        $("#author").val(author);
-        $("#row_id").val(row_id);
+				$("#name").val(data_line);
+		        $("#text").val(text);
+		        $("#festtext").html(text.substring(0,180));
+		        $("#festtext2").html(text);
+		        $("#meta_data_value").val(data_meta);
+		        $("#category").val(data_cat);
+		        $("#author").val(author);
+		        $("#row_id").val(row_id);
 		
 			}else{
 			currentIndex = parseInt(currentIndex) - 1;
