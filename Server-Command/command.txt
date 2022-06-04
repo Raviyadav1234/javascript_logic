@@ -1,0 +1,6 @@
+
+Command for Zip and Unzip
+---------------------------
+For Zip:- zip -r filename(any as you).zip folder/filename(which want you zip)
+
+For Unzip:- unzip zipfilename.zip
